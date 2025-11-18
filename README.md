@@ -1,5 +1,5 @@
 # MPU6050-3D-Visualization
-MATLAB Simulink project for real-time 3D visualization of MPU6050 orientation data using ESP32 and VR Sink.
+MATLAB Simulink project for real time 3D visualization of MPU6050 orientation data using ESP32 and VR Sink.
 
 
 ## Requirements
@@ -14,20 +14,20 @@ MATLAB Simulink project for real-time 3D visualization of MPU6050 orientation da
  
     
 ## Repository Structure
-- `Arduino_Code/`  
+- `Arduino_Code`  
   ESP32 code to read MPU6050 and send data via UDP.
-- `Simulink_Model/`  
+- `Simulink_Model`  
   Simulink files (`.slx`) and MATLAB functions used for:
   - Complementary filter  
   - Converting sensor data to VR Sink format  
-- `assets/`  
+- `assets`  
   3D model files (for example, `.stl`) used by the VR Sink block for visualization.
 
 
 ## Hardware: ESP32 ↔ MPU6050 Connections
 
 The ESP32 and MPU6050 communicate over **I²C**. A typical wiring is:
-  **MPU6050**       **ESP32**
+**MPU6050**         **ESP32**
 - **VCC**       →   **3.3V**  
 - **GND**       →   **GND**  
 - **SDA**       →   **GPIO 21 (SDA)**  
