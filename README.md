@@ -28,7 +28,7 @@ MATLAB Simulink project for real time 3D visualization of MPU6050 orientation da
 
 The ESP32 and MPU6050 communicate over **I²C**. A typical wiring is:
 
-(**MPU6050** - pinson left side)         
+(**MPU6050** - pins on left side)         
 (**ESP32**   - pins on right side)
 - **VCC**       →   **3.3V**  
 - **GND**       →   **GND**  
