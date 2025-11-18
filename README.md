@@ -5,8 +5,7 @@ MATLAB Simulink project for real-time 3D visualization of MPU6050 orientation da
 ## Requirements
 - **Hardware**  
   - ESP32 development board  
-  - MPU6050 IMU module  
-  - Optional additional sensors (DHT22, BMP280)  
+  - MPU6050 IMU module   
 - **Software**  
   - MATLAB  
   - Simulink  
